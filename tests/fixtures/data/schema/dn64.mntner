@@ -1,0 +1,9 @@
+schema:             dn64.mntner
+ref:                dn64.mntner
+key:                mntner required single primary
+key:                admin-c required multiple lookup=person,role
+key:                tech-c required multiple lookup=person,role
+key:                auth required multiple
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

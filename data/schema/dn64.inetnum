@@ -1,0 +1,14 @@
+schema:             dn64.inetnum
+ref:                dn64.inetnum
+key:                inetnum required single primary
+key:                cidr required single
+key:                netname required single
+key:                status required single
+key:                policy optional single
+key:                min-length optional single
+key:                max-length optional single
+key:                admin-c required multiple lookup=person,role
+key:                tech-c required multiple lookup=person,role
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

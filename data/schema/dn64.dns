@@ -1,0 +1,10 @@
+schema:             dn64.dns
+ref:                dn64.dns
+key:                domain required single primary
+key:                nserver required multiple
+key:                ds-rdata optional multiple
+key:                admin-c required multiple lookup=person,role
+key:                tech-c required multiple lookup=person,role
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

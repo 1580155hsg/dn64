@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+if [ "$#" -ne 1 ]; then
+    echo 'Usage: ./check-pol origin/main (validates your single signed commit)' >&2
+    exit 1
+fi
+root=$(CDPATH='' cd -- "$(dirname "$0")" && pwd)
+base=$(git -C "$root" rev-parse --verify "$1^{commit}")
+head=$(git -C "$root" rev-parse --verify HEAD)
+exec python3 "$root/utils/registry.py" check-pr --base "$base" --head "$head"

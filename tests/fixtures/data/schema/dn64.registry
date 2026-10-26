@@ -1,0 +1,10 @@
+schema:             dn64.registry
+ref:                dn64.registry
+key:                registry required single primary
+key:                descr required multiple
+key:                url required single
+key:                admin-c required multiple lookup=person,role
+key:                tech-c required multiple lookup=person,role
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

@@ -1,0 +1,11 @@
+inet6num:           fd00::/8
+netname:            DN64-ULA-POLICY
+status:             ALLOCATED
+policy:             open
+min-length:         48
+max-length:         48
+admin-c:            LICHENLANG-DN64
+tech-c:             LICHENLANG-DN64
+remarks:            Policy root for independently randomized ULA /48s, not an exclusive claim over fd00::/8.
+mnt-by:             DN64-MNT
+source:             DN64

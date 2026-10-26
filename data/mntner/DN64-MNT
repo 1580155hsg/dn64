@@ -1,0 +1,6 @@
+mntner:             DN64-MNT
+admin-c:            LICHENLANG-DN64
+tech-c:             LICHENLANG-DN64
+auth:               ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIN9KjGJKoLcxrGzC9tyygSpeA698imHnnRokrmmFqnAB
+mnt-by:             DN64-MNT
+source:             DN64

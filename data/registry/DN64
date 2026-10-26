@@ -1,0 +1,7 @@
+registry:           DN64
+descr:              DN64 dual-stack experimental network registry
+url:                https://github.com/lichenlang89/dn64
+admin-c:            LICHENLANG-DN64
+tech-c:             LICHENLANG-DN64
+mnt-by:             DN64-MNT
+source:             DN64

@@ -1,0 +1,11 @@
+inetnum:            10.64.0.0 - 10.64.255.255
+cidr:               10.64.0.0/16
+netname:            DN64-IPV4-POOL
+status:             ALLOCATED
+policy:             open
+min-length:         24
+max-length:         24
+admin-c:            LICHENLANG-DN64
+tech-c:             LICHENLANG-DN64
+mnt-by:             DN64-MNT
+source:             DN64

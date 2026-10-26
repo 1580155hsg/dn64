@@ -1,0 +1,10 @@
+schema:             dn64.aut-num
+ref:                dn64.aut-num
+key:                aut-num required single primary
+key:                as-name required single
+key:                descr optional multiple
+key:                admin-c required multiple lookup=person,role
+key:                tech-c required multiple lookup=person,role
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

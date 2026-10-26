@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+if [ "$#" -ne 1 ]; then
+    echo 'Usage: ./sign-my-commit ~/.ssh/your_private_key (signs HEAD without pushing)' >&2
+    exit 1
+fi
+root=$(CDPATH='' cd -- "$(dirname "$0")" && pwd)
+exec git -C "$root" -c gpg.format=ssh -c "user.signingkey=$1" commit --amend --no-edit -S

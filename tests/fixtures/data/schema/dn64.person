@@ -1,0 +1,8 @@
+schema:             dn64.person
+ref:                dn64.person
+key:                person required single
+key:                nic-hdl required single primary
+key:                e-mail required multiple
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

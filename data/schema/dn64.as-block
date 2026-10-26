@@ -1,0 +1,7 @@
+schema:             dn64.as-block
+ref:                dn64.as-block
+key:                as-block required single primary
+key:                policy required single
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

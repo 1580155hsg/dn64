@@ -1,0 +1,13 @@
+schema:             dn64.inet6num
+ref:                dn64.inet6num
+key:                inet6num required single primary
+key:                netname required single
+key:                status required single
+key:                policy optional single
+key:                min-length optional single
+key:                max-length optional single
+key:                admin-c required multiple lookup=person,role
+key:                tech-c required multiple lookup=person,role
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple

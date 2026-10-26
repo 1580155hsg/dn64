@@ -1,0 +1,7 @@
+schema:             dn64.route6
+ref:                dn64.route6
+key:                route6 required single primary
+key:                origin required single lookup=aut-num
+key:                mnt-by required multiple lookup=mntner
+key:                source required single
+key:                remarks optional multiple
